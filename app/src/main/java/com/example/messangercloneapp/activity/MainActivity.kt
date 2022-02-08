@@ -31,6 +31,7 @@ class MainActivity : AppCompatActivity() {
 
     private fun getRooms(): ArrayList<Room> {
         val rooms: ArrayList<Room> = ArrayList()
+        rooms.add(Room(R.drawable.ic_baseline_video_call_24,"Create    room"))
         for (i in 0..3){
             rooms.add(Room(R.drawable.img1,"Begzodbek Kurbanov"))
             rooms.add(Room(R.drawable.img2,"Sherzodbek Kurbanov"))

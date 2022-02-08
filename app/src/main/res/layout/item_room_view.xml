@@ -21,15 +21,18 @@
                 android:layout_height="match_parent"
                 android:scaleType="centerCrop"
                 android:src="@drawable/img3"
+                android:background="@color/light_black"
                 app:shapeAppearanceOverlay="@style/circle" />
 
             <LinearLayout
+                android:id="@+id/is_online_room"
                 android:layout_width="15dp"
                 android:layout_height="15dp"
                 android:layout_gravity="bottom|end"
                 android:layout_marginEnd="2dp"
                 android:layout_marginBottom="2dp"
-                android:background="@drawable/shape_circle_green" />
+                android:background="@drawable/shape_circle_green"
+                android:orientation="horizontal" />
 
         </FrameLayout>
 
